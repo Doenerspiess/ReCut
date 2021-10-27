@@ -1,4 +1,7 @@
-I'm writing a python script to cut longer MP3 files (i.e. recordings of several songs) into the individual tracks. 
+I'm writing a python script to cut longer MP3 files (i.e. recordings of several songs) into the individual tracks called ReCut. 
+
+So far, there is a compiled .exe program which should run on most devices.
+There also is a python script version (.py) which you can use if you have a python interpreter installed, and, VERY IMPORTANT, ffmpeg added to your path (for windows, this is how you do it: https://windowsloop.com/install-ffmpeg-windows-10/).
 
 It's a rather simple program with a very non-polished GUI so far. Feel free to use it and report any problems that occur. 
 
@@ -7,3 +10,4 @@ Until then, you'll have to use a program like audacity first to record the origi
 
 The maximum length of the input MP3 is, to my knowledge, slightly above five hours. 
 I suspect that RAM is the limiting factor, so if you have more than 8 GB of RAM, longer input files may work, too.
+
