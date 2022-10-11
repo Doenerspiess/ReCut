@@ -31,3 +31,4 @@ used modules installed, i.e. using pip install.
 Also, it is necessary that you have ffmpeg installed and added to your path. For windows, this is how you do it:
 https://windowsloop.com/install-ffmpeg-windows-10/
 If you don't have ffmpeg installed, the code won't run! 
+Also, add the ffmpeg, ffplay and ffprobe - files you obtain by downloading and installing ffmpeg to the folder the .py-file of ReCut is in (if you donwload the .zip-folder from the release, those files are already included).
